@@ -4,22 +4,22 @@ const app = express();
 
 app.get("/page1",(req,res)=>{
   
-  res.sendfile(path.join(_dirname+ "/page1.html")
+  res.sendfile(path.join(_dirname+ "/page1.html"))
 })
 
 app.get("/page2",(req,res)=>{
   
-  res.sendfile(path.join(_dirname+ "/page2.html")
+  res.sendfile(path.join(_dirname+ "/page2.html"))
 })
 
 app.get("/page3",(req,res)=>{
   
-  res.sendfile(path.join(_dirname+ "/page3.html")
+  res.sendfile(path.join(_dirname+ "/page3.html"))
 })
 
 app.get("/page4",(req,res)=>{
   
-  res.sendfile(path.join(_dirname+ "/page4.html")
+  res.sendfile(path.join(_dirname+ "/page4.html"))
 })
 
 app.listen(3000,()=>{
